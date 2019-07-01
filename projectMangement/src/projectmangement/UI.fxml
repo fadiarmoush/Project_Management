@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="223.0" prefWidth="371.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/9.0.1" fx:controller="projectmangement.UIController">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="43.0" layoutY="6.0" prefHeight="38.0" prefWidth="329.0" text="Project managment menue">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="b1" layoutX="110.0" layoutY="66.0" mnemonicParsing="false" onAction="#createManager" prefHeight="46.0" prefWidth="154.0" text="Create manager" />
+      <Button fx:id="b2" layoutX="110.0" layoutY="132.0" mnemonicParsing="false" onAction="#openManager" prefHeight="46.0" prefWidth="154.0" text="Open manager" />
+      <Line endX="100.0" layoutX="187.0" layoutY="192.0" startX="-100.0" />
+      <Line endX="100.0" layoutX="187.0" layoutY="53.0" startX="-100.0" />
+   </children>
+</AnchorPane>
